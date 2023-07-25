@@ -3,8 +3,6 @@ public class sum{
         int a = 10;
         int b = 5;
 
-        int c = a+b;
-
-        System.out.println("Addition fo two Number:" + c);
+        System.out.println("Addition fo two Number:" + (a+b));
     }
 }
