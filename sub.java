@@ -1,8 +1,16 @@
-public class sub {
-    public static void main(String[] args) {
-        int a = 10;
-        int b = 5;
-
-        System.out.println(a-b);
+class sub
+{
+     final static public void main(String... args)
+     {
+       char c='a';
+       switch(c)
+	{
+	case 'a','e','i','o','u':System.out.println("Vowel");
+		               break;
+	
+	default:System.out.println("Consonant");
+	}
+      
     }
+
 }
